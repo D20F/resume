@@ -1,6 +1,6 @@
 <template>
     <div class="box">
-        <!-- <div class="left">
+        <div class="left">
             <div class="avater">
                 <img src="" alt="" />
             </div>
@@ -10,13 +10,13 @@
                     <p>{{ item }}</p>
                 </div>
             </div>
-        </div> -->
+        </div>
         <div class="right">
 
         </div>
     </div>
 </template>
-sa
+
 <script>
 export default {
     name: "Home",
