@@ -1,24 +1,13 @@
-# vue-go-admin
+## 小程序
+地图   打开外链地图
+扫码
+获取微信手机号快速注册
+积分列表下拉懒加载
+canvas 生成海报   存储本地或者分享微信
+富文本解析器 来显示后台推送的富文本公告
+封装常用组件 input icon img
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+##
+异步加载路由  后端请求权限
+列表分页加载，多图片列表懒加载
+富文本公告  base64位上传图片
