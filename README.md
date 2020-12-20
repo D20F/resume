@@ -34,3 +34,8 @@ vue-router使用懒加载写法,钱包中的数据列表使用下拉懒加载保
 
 
 vuetify项目可以看看
+Devops这种可以了解下
+如何确立团队规范
+enlist Devops
+你去掘金搜文章，如果我是团队leader我要做什么
+
