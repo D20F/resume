@@ -16,11 +16,11 @@
 <body>
     <div class="container" id="cv">
         <div class="side">
-            <div class="me martop" >
+            <div class="me" >
                 <div class="portrait"></div>
                 <h1 id="username" >方博</h1>
             </div>
-            <div class="profile info-unit martop" >
+            <div style='margin-top: 100px;' class="profile info-unit martop" >
                 <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
                 <hr>
                 <ul class="info-list">
@@ -38,7 +38,7 @@
                         <label class="left-label">工作经验</label><span class="label-value">2年</span></li>
                 </ul>
             </div>
-            <div class="contact info-unit martop" >
+            <div style='margin-top: 100px;' class="contact info-unit martop" >
                 <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
                 <hr>
                 <ul class="info-list">
@@ -62,16 +62,16 @@
                         <h4 style="margin-top: 10px;">前端开发工程师</h4>
                         
                         <li type="circle" class="marleft">
-                            1.参与Web项目的技术选型以及架构设计
+                            参与Web项目的技术选型以及架构设计
                         </li>
                         <li type="circle" class="marleft">
-                            2.根据公司项目需求开发后台管理系统, 微信小程序, APP
+                            根据公司项目需求开发后台管理系统, 微信小程序, App
                         </li>
                         <li type="circle" class="marleft">
-                            3.开发团队内部工具，并制定工作规范
+                            开发团队内部工具，并制定工作规范
                         </li>
                         <li type="circle" class="marleft">
-                            4.参与项目重构的讨论
+                            参与项目重构的讨论
                         </li>
                     </li>
                 </ul class="experience-list">
@@ -81,29 +81,48 @@
                 </span></h2>
                 <hr>
                 <ul class="experience-list">
-                    <h3 class="martoptwo" style="margin-left: -38px;" >
-                        GPS 项目
+                    <h3 class="martopthree" style="margin-left: -38px;" >
+                        小蛐 后台管理系统
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
-                        2019.06 - 2020.01
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       
+                        &nbsp;&nbsp;&nbsp;
+                        2020.07 - 2020.12
                     </h3>
-                    <li style="margin-top: 10px;">项目背景: 基于区块链开发的虚拟货币钱包</li>
-                    <li>工作：担任项目的前端开发。</li>
+                    <li style="margin-top: 10px;">项目背景: 使用Vue,Element开发的后台管理系统</li>
+                    <li>工作：担任项目的主开发，负责技术架构设计和后期维护。</li>
                     <li type="circle" class="marleft">
-                        配合美术使用Vue + Vant快速构建页面。
-                    </li>
-                    <li type="circle" class="marleft">
-                        使用qrcode.vue生成二维码实现二维码转账功能
+                        对于本系统的权限管理,我提出使用角色加模块的方式。Vue-Router里面只保有基础页面路由。其他页面，需要登陆之后,请求后端权限,然后使用addRoutes，添加进项目路由中。
+                        可保证不同权限角色登陆,进行动态的加载侧边栏。并且使用自定义指令控制按钮的显示，保证了权限的完全控制。
                     </li>
                     <li type="circle" class="marleft" style="line-height:25px">
-                        使用Vue-Router的路由懒加载写法，优化页面速度。将页面权限判断，放在路由守卫上，优化权限判断。
+                        对于多次复用的逻辑,我使用混入、过滤器、自定义指令进行统一封装。保证代码的复用及简洁性。
+                    </li>
+                    <li type="circle" class="marleft" style="line-height:25px">
+                        对于数据过多的页面,我使用视图下拉加载，用户不下拉到底部即不加载,加快页面的加载速度。
+                    </li>
+                    <li type="circle" class="marleft" style="line-height:25px">
+                        对于Vue、VueRouter、Viser-vue、Element-ui等这种不常变化的资源,修改webpack配置不加入打包范围,而是通过 cdn 引入,减少代码大小和服务器带宽,提高网站性能。 
+                    </li>
+                    <h3 class="martoptwo" style="margin-left: -38px;" >
+                        GPS钱包  App
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+                        2019.06 - 2020.01
+                    </h3>
+                    <li style="margin-top: 10px;">项目背景: 区块链虚拟货币钱包</li>
+                    <li>工作：担任项目的前端开发。</li>
+                    <li type="circle" class="marleft">
+                        该钱包基于Vue,Cordova开发。页面布局通过使用Rem,Flex来实现移动端适配。
                     </li>
                     <li type="circle" class="marleft">
-                        使用Vuex来管理数据。
+                        钱包使用Eos库对链进行转账查询功能。对于钱包的扫码转账功能,我使用Cordova和Qrcode封装了一组扫码转账组件,以便在项目中使用。
                     </li>
                     <li type="circle" class="marleft">
-                        使用cordova的插件用来实现安卓原生的效果
+                        使用LocalStorage,Cookie实现账号数据持久化功能。与后端接口的数据交换,使用token验证保证数据的安全。
+                    </li>
+                    <li type="circle" class="marleft" style="line-height:25px">
+                        Vue-Router使用懒加载写法,钱包中的数据列表使用下拉懒加载保证页面的加载速度。
                     </li>
                     <h3 class="martopthree" style="margin-left: -38px;" >
                         小蛐 微信小程序
@@ -112,19 +131,14 @@
                         &nbsp;&nbsp;&nbsp;
                         2020.06 - 2020.12
                     </h3>
-                    <li style="margin-top: 10px;">项目背景: 使用uniapp框架开发的垃圾分类回收小程序</li>
+                    <li style="margin-top: 10px;">垃圾分类回收小程序</li>
                     <li>工作：担任项目的主开发，负责技术架构设计和后期维护。</li>
                     <li type="circle" class="marleft">
-                        使用微信
-                    </li>
+                        该小程序基于Uniapp开发,页面通过u-view快速构建开发。                    </li>
                     <li type="circle" class="marleft" style="line-height:25px">
-                        由于业务需求，聊天信息不能缓存至服务器，需存储到前端。LocalStorage无法满足需求，我使用了IndexedDB浏览器数据库，来存储信息，并为封装了一些适合项目的JS代码。
-                    </li>
+                        产品提出需要能让用户快速分享个人海报到朋友圈。我使用原生canvas功能实现生成个人海报照片，以供用户分享朋友圈。                    </li>
                     <li type="circle" class="marleft" style="line-height:25px">
-                        对于，用户未启动App如何推送信息，我提出使用极光推送，来唤醒App，成功解决问题。
-                    </li>
-                    <li type="circle" class="marleft" style="line-height:25px">
-                        为了解决应用在安卓内的提示和响铃功能。我使用提示插件cordova-plugin-local-notifications-appstr 和 震动插件cordova-plugin-vibration解决。
+                        项目中需要在地图中显示附近的垃圾桶,使用框架提供的Map组件和微信提供的经纬度,结合后端数据实现在地图上显示垃圾回收站信息。
                     </li>
                 </ul>
             </div>
@@ -132,12 +146,9 @@
                 <h2 class="info-header"><i class="iconfont icon-star icon-build"></i> <span class="info-title">专业技能</span></h2>
                 <hr>
                 <ul class="experience-list">
-                    <li style="margin-top: 10px;">熟练使用Vue进行开发，了解双向数据绑定原理，熟练使用组件、混入、过滤器等</li>
-                    <li style="margin-top: 10px;">使用Vue-Router和Vuex配合Vue进行开发</li>
-                    <li style="margin-top: 10px;">了解React，并使用redux react-router-dom 配合开发</li>
-                    <li style="margin-top: 10px;">熟练使用Cordova和React Native进行混合开发</li>
-                    <li style="margin-top: 10px;">了解taro, uniapp全平台开发技术</li>
-                    <li style="margin-top: 10px;">了解Node,运用Express搭建本地server模拟接口返回数据测试接口</li>
+                    <li style="margin-top: 10px;">熟练使用Vue、Vue-Router、Vuex进行开发，了解双向数据绑定原理，熟练使用组件、混入、过滤器等。</li>
+                    <li style="margin-top: 10px;">熟练使用Cordova, Uniapp进行全平台开发。</li>
+                    <li style="margin-top: 10px;">了解Node,运用Egg搭建本地server模拟接口返回数据测试接口。</li>
                 </ul>
             </div>
         </div>
