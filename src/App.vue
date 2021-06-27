@@ -1,7 +1,7 @@
 <template>
-    <div id="app">
+    <!-- <div id="app"> -->
         <router-view />
-    </div>
+    <!-- </div> -->
 </template>
 
 <script>
@@ -18,24 +18,24 @@ export default {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    width: 100%;
-    height: 100%;
+    zoom: 80%;
+    background-color: lightslategray;
 }
 html {
-    width: 100%;
-    height: 100%;
+   box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    
 }
 body {
-    width: 100%;
-    height: 100%;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    zoom: 80%;
     margin: 0;
-    padding: 0;
+    background-color: lightslategray;
 }
-p{
+p {
     margin: 0;
     padding: 0;
-
 }
 </style>
