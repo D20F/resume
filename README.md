@@ -1,3 +1,6 @@
+https://www.100chui.com/resume/
+https://www.100chui.com/resume/detail-16265.html
+https://www.100chui.com/resume/detail-16042.html
 ## 小程序
 地图   打开外链地图
 扫码
