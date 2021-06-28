@@ -52,11 +52,14 @@ export default {
     // border: 1px solid;
     // justify-content: space-between;
     // align-items: center;
+    p{
+        color: #747474;
+    }
     .left {
         div {
             align-items: center;
             display: flex;
-            margin: 0 80px 10px 10px;
+            margin: 0 90px 25px 0px;
         }
         img {
             width: 16px;
@@ -68,7 +71,7 @@ export default {
         div {
             align-items: center;
             display: flex;
-            margin: 0 30px 10px 10px;
+            margin: 0 30px 25px 0px;
         }
         img {
             width: 16px;

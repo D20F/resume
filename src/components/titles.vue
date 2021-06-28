@@ -29,17 +29,17 @@ export default {
 <style scoped lang="scss">
 .titles {
     position: relative;
-    height: 50px;
+    height: 45px;
     .oricl {
         position: absolute;
         width: inherit;
-        border-bottom: 50px solid red;
+        border-bottom: 45px solid #0b70bd;
         border-right: 25px solid transparent;
         height: 0;
-        line-height: 50px;
-        padding: 0 10px;
+        line-height: 45px;
+        padding: 0 12px;
         p {
-            font-size: 28px;
+            font-size: 24px;
             color: #ffffff;
         }
     }
@@ -49,7 +49,7 @@ export default {
         height: 1px;
         transform: scaleY(0.5);
         bottom: 0;
-        background: red;
+        background: #0b70bd;
     }
 }
 </style>
