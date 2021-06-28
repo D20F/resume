@@ -9,8 +9,12 @@ const routes = [
   {
     path:"/",
     name:"main",
-    explain:"主页面",
-    component:() => import("@/view/Home/index.vue")
+    component:() => import("@/view/main.vue")
+  },
+  {
+    path:"/nextpage",
+    name:"nextpage",
+    component:() => import("@/view/nextpage.vue")
   },
 ]
 
@@ -27,3 +31,4 @@ router.beforeEach((to, from, next) => {
 })
 
 export default router
+

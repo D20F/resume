@@ -1,25 +1,13 @@
 <template>
     <div class="box">
-        <div class="user">
-            <div class="left">
-                <div v-for="(item, index) in user" :key="index">
-                    <img :src="item.icon" alt="" />
-                    <p>{{ item.text }}</p>
-                </div>
-            </div>
-            <div class="right">
-                <div v-for="(item, index) in users" :key="index">
-                    <img :src="item.icon" alt="" />
-                    <p>{{ item.text }}</p>
-                </div>
-            </div>
-        </div>
+        <titles></titles>
+            <!-- <img class="avatar" src="" alt="" /> -->
+
     </div>
 </template>
 
 <script>
 export default {
-    name: "Home",
     data() {
         return {
             user: [
@@ -57,41 +45,17 @@ export default {
 <style scoped lang="scss">
 .box {
     position: relative;
-    margin: 0 auto;
-    width: 1050px;
+    width: 930px;
     height: 1550px;
-    background-color: white;
-}
-.user {
-    width: 80%;
-    height: 200px;
     margin: 0 auto;
-    padding: 200px 0;
-    display: flex;
-    font-size: 16px;
-    // justify-content: space-between;
-    // align-items: center;
-    .left {
-        div {
-            align-items: center;
-
-            display: flex;
-        }
-        img{
-            width: 24px;
-            height: 24px;
-        }
-    }
-    .right {
-        div {
-            align-items: center;
-
-            display: flex;
-        }
-        img{
-            width: 24px;
-            height: 24px;
-        }
-    }
+    padding: 30px 60px 0 60px;
+    background-color: white;
+}.avatar {
+    border: 1px solid;
+    width: 100px;
+    height: 142px;
+    position: absolute;
+    top: 30px;
+    right: 70px;
 }
 </style>

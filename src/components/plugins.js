@@ -1,9 +1,13 @@
-import btnGgreen from './btn-green'
+import titles from './titles.vue'
+import user from './user.vue'
 
 
-function plugins(Vue) {
-  Vue.component("btn-green", btnGgreen);
+const plugins = {
+
+    install: function (Vue) {
+        Vue.component("titles", titles);
+        Vue.component("user", user);
+    }
 
 }
-
 export default plugins;

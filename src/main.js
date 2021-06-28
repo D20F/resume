@@ -6,8 +6,10 @@ import "./util/rem.js"
 
 
 
-import component_plugins from './components/plugins'
-Vue.use(component_plugins);
+import plugins from './components/plugins'
+Vue.use(plugins);
+
+
 
 Vue.config.productionTip = false
 
