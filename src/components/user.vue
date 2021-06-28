@@ -49,14 +49,14 @@ export default {
     padding: 20px 0;
     display: flex;
     font-size: 16px;
-    border: 1px solid;
+    // border: 1px solid;
     // justify-content: space-between;
     // align-items: center;
     .left {
         div {
             align-items: center;
             display: flex;
-            margin: 0 30px 10px 10px;
+            margin: 0 80px 10px 10px;
         }
         img {
             width: 16px;
