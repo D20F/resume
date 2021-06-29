@@ -6,29 +6,40 @@
 
         <titles text="工作经历" />
         <div class="bule-title">
-            <p>2019.06 - 2021.7</p>
+            <p>2019.06 - 2020.3</p>
+            <p>广州悦智科技有限公司</p>
+            <p>前端开发</p>
+        </div>
+        <ul class="content">
+            <li>参与Web项目的技术选型以及架构设计</li>
+            <li>根据公司项目需求开发后台管理系统, 微信小程序, App</li>
+            <li>开发团队内部工具，并制定工作规范</li>
+            <li>参与项目重构的讨论</li>
+        </ul>
+        <div class="bule-title">
+            <p>2020.03 - 2021.7</p>
             <p>广州孢子科技有限公司</p>
             <p>前端开发</p>
         </div>
-        <ul>
+        <ul class="content">
             <li>参与Web项目的技术选型以及架构设计</li>
             <li>根据公司项目需求开发后台管理系统, 微信小程序, App</li>
             <li>开发团队内部工具，并制定工作规范</li>
             <li>参与项目重构的讨论</li>
         </ul>
         <titles text="项目经验" />
-        <div class="bule-title">
-            <p>小蛐垃圾回收管理系统</p>
-            <p>网页</p>
-            <p>2020.07 - 2020.12</p>
-        </div>
 
-        虚拟列表保证input长列表选择保证性能
+
+
+        <!-- 虚拟列表保证input长列表选择保证性能
         echarts图表   性能优化
         富文本制作
-        动态权限设计 
-
-        <ul>
+        动态权限设计  -->
+        <div class="bule-title">
+            <p>小蛐垃圾回收管理系统</p>
+            <p>2020.07 - 2020.12</p>
+        </div>
+        <ul class="content">
             <li>项目背景: 使用Vue,Element开发的后台管理系统。</li>
             <li>工作：担任项目的主开发，负责技术架构设计和后期维护。</li>
             <li type="circle">
@@ -43,26 +54,23 @@
                 对于数据过多的页面,我使用视图下拉加载，用户不下拉到底部即不加载,加快页面的加载速度。
             </li>
             <!-- 这个cdn 引入打包 待定 容易吹错 -->
-            <li type="circle">  
+            <li type="circle">
                 对于Vue、VueRouter、Viser-vue、Element-ui等这种不常变化的资源,修改webpack配置不加入打包范围,而是通过
                 cdn 引入,减少代码大小和服务器带宽,提高网站性能。
             </li>
         </ul>
-        <div class="bule-title">
-            <p>GPS钱包</p>
-            <p>App</p>
-            <p>2019.06 - 2020.01</p>
-        </div>
 
-
-        自己使用cordova file 插件封装一个上传的插件 Blob  Uint8Array   formdata    
+        <!-- 自己使用cordova file 插件封装一个上传的插件 Blob  Uint8Array   formdata    
         使用eos库
         接入其他外链网页 来做到游戏功能
         采用骨架屏和loading保证观感
         使用cordova 插件来完成原生功能
-        使用canvas来完成高质量的动画效果
-
-        <ul>
+        使用canvas来完成高质量的动画效果 -->
+        <div class="bule-title">
+            <p>GPS钱包</p>
+            <p>2019.06 - 2020.01</p>
+        </div>
+        <ul class="content">
             <li>项目背景: 区块链虚拟货币钱包</li>
             <li>工作：担任项目的前端开发。</li>
             <li type="circle">
@@ -83,17 +91,16 @@
         </ul>
 
 
-        海报canvas快照
+
+        <!-- 海报canvas快照
         地图跳转 地图标准画点
         富文本公告
-        虚拟列表 下拉加载 保证性能
-
+        虚拟列表 下拉加载 保证性能 -->
         <div class="bule-title">
             <p>小蛐垃圾回收管理系统</p>
-            <p>微信小程序</p>
             <p>2020.06 - 2020.12</p>
         </div>
-        <ul>
+        <ul class="content">
             <li>项目背景: 垃圾分类回收小程序</li>
             <li>工作：担任项目的主开发，负责技术架构设计和后期维护。</li>
             <li type="circle">
@@ -107,16 +114,12 @@
             </li>
         </ul>
         <titles text="专业技能" />
-        <ul>
+        <ul class="content">
             <li>
                 熟练使用Vue、Vue-Router、Vuex进行开发，了解双向数据绑定原理，熟练使用组件、混入、过滤器等。
             </li>
-            <li>
-                熟练使用Cordova, Uniapp进行全平台开发。
-            </li>
-            <li>
-                了解Node,运用Egg搭建本地server模拟接口返回数据测试接口。
-            </li>
+            <li>熟练使用Cordova, Uniapp进行全平台开发。</li>
+            <li>了解Node,运用Egg搭建本地server模拟接口返回数据测试接口。</li>
         </ul>
     </div>
 </template>
@@ -161,7 +164,7 @@ export default {
 .box {
     position: relative;
     width: 930px;
-    height: 1550px;
+    height: 1520px;
     margin: 0 auto;
     padding: 30px 60px 0 60px;
     background-color: white;
@@ -186,9 +189,13 @@ export default {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    p:nth-child(1) {
-        top: 1px;
+    p:nth-child(2) {
+        top: 1.8px;
         position: relative;
     }
+}
+.content{
+    font-size: 17px;
+    margin: .5rem 0 27px 0;
 }
 </style>

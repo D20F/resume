@@ -30,6 +30,7 @@ export default {
 .titles {
     position: relative;
     height: 45px;
+    margin-bottom: 7px;
     .oricl {
         position: absolute;
         width: inherit;
