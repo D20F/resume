@@ -22,6 +22,12 @@
             <p>网页</p>
             <p>2020.07 - 2020.12</p>
         </div>
+
+        虚拟列表保证input长列表选择保证性能
+        echarts图表   性能优化
+        富文本制作
+        动态权限设计 
+
         <ul>
             <li>项目背景: 使用Vue,Element开发的后台管理系统。</li>
             <li>工作：担任项目的主开发，负责技术架构设计和后期维护。</li>
@@ -32,10 +38,12 @@
             <li type="circle">
                 对于多次复用的逻辑,我使用混入、过滤器、自定义指令进行统一封装。保证代码的复用及简洁性。
             </li>
+            <!-- 待定 太low -->
             <li type="circle">
                 对于数据过多的页面,我使用视图下拉加载，用户不下拉到底部即不加载,加快页面的加载速度。
             </li>
-            <li type="circle">
+            <!-- 这个cdn 引入打包 待定 容易吹错 -->
+            <li type="circle">  
                 对于Vue、VueRouter、Viser-vue、Element-ui等这种不常变化的资源,修改webpack配置不加入打包范围,而是通过
                 cdn 引入,减少代码大小和服务器带宽,提高网站性能。
             </li>
@@ -45,12 +53,24 @@
             <p>App</p>
             <p>2019.06 - 2020.01</p>
         </div>
+
+
+        自己使用cordova file 插件封装一个上传的插件 Blob  Uint8Array   formdata    
+        使用eos库
+        接入其他外链网页 来做到游戏功能
+        采用骨架屏和loading保证观感
+        使用cordova 插件来完成原生功能
+        使用canvas来完成高质量的动画效果
+
         <ul>
             <li>项目背景: 区块链虚拟货币钱包</li>
             <li>工作：担任项目的前端开发。</li>
             <li type="circle">
                 该钱包基于Vue,Cordova开发。页面布局通过使用Rem,Flex来实现移动端适配。
             </li>
+
+            cordova-plugin-camera和 qrcode 结合 实现扫码
+
             <li type="circle">
                 钱包使用Eos库对链进行转账查询功能。对于钱包的扫码转账功能,我使用Cordova和Qrcode封装了一组扫码转账组件,以便在项目中使用。
             </li>
@@ -61,6 +81,13 @@
                 Vue-Router使用懒加载写法,钱包中的数据列表使用下拉懒加载保证页面的加载速度。
             </li>
         </ul>
+
+
+        海报canvas快照
+        地图跳转 地图标准画点
+        富文本公告
+        虚拟列表 下拉加载 保证性能
+
         <div class="bule-title">
             <p>小蛐垃圾回收管理系统</p>
             <p>微信小程序</p>
