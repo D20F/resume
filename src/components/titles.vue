@@ -1,10 +1,27 @@
 <template>
     <div class="titles">
-        <div class="oricl">
+        <!-- <div class="oricl">
             <p>{{ text }}</p>
-        </div>
-        <div class="line">
-        </div>
+        </div> -->
+        <img
+            v-if="text == '工作经历'"
+            style="width: 145px; height: 45px"
+            src="@/assets/工作经历.png"
+            alt=""
+        />
+        <img
+            v-else-if="text == '项目经验'"
+            style="width: 145px; height: 45px"
+            src="@/assets/项目经验.png"
+            alt=""
+        />
+        <img
+            v-else-if="text == '专业技能'"
+            style="width: 145px; height: 45px"
+            src="@/assets/专业技能.png"
+            alt=""
+        />
+        <div class="line"></div>
     </div>
 </template>
 
@@ -24,7 +41,8 @@ export default {
     mixins: [],
     created() {},
     methods: {},
-    computed: {},
+    computed: {
+    },
 };
 </script>
 <style scoped lang="scss">

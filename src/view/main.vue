@@ -3,12 +3,6 @@
         <p class="name">方博</p>
         <user :user="user" :users="users" />
         <img class="avatar" src="@/assets/w.jpg" alt="" />
-
-
-        截图图片形式解决文件颜色灰色问题
-
-
-
         <titles text="工作经历" />
         <div class="bule-title">
             <p>2019.06 - 2020.3</p>
@@ -79,14 +73,6 @@
                 项目中需要在地图中显示附近的垃圾桶,使用框架提供的Map组件和微信提供的经纬度,结合后端数据实现在地图上显示垃圾回收站信息。
             </li>
         </ul>
-        <titles text="专业技能" />
-        <ul class="content">
-            <li>
-                熟练使用Vue、Vue-Router、Vuex进行开发，了解双向数据绑定原理，熟练使用组件、混入、过滤器等。
-            </li>
-            <li>熟练使用Cordova, Uniapp进行全平台开发。</li>
-            <li>了解Node,运用Egg搭建本地server模拟接口返回数据测试接口。</li>
-        </ul>
         <!-- 虚拟列表保证input长列表选择保证性能
         echarts图表   性能优化
         富文本制作
@@ -112,6 +98,14 @@
                 对于本系统的权限管理,我提出使用角色加模块的方式。Vue-Router里面只保有基础页面路由。其他页面，需要登陆之后,请求后端权限,然后使用addRoutes，添加进项目路由中。
                 可保证不同权限角色登陆,进行动态的加载侧边栏。并且使用自定义指令控制按钮的显示，保证了权限的完全控制。
             </li>
+        </ul>
+        <titles text="专业技能" />
+        <ul class="content">
+            <li>
+                熟练使用Vue、Vue-Router、Vuex进行开发，了解双向数据绑定原理，熟练使用组件、混入、过滤器等。
+            </li>
+            <li>熟练使用Cordova, Uniapp进行全平台开发。</li>
+            <li>了解Node,运用Egg搭建本地server模拟接口返回数据测试接口。</li>
         </ul>
     </div>
 </template>
@@ -188,7 +182,7 @@ export default {
 }
 .content {
     font-size: 17px;
-    margin: 0.4rem 0 25px 0;
+    margin: 0.4rem 0 20px 0;
     li {
         margin: 0 0 5px 0;
     }
