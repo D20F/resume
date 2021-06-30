@@ -1,8 +1,8 @@
 <template>
     <div class="box">
-        <user :user="user" :users="users" />
-        <titles :text="212122" />
-        <img class="avatar" src="" alt="" />
+        <!-- <user :user="user" :users="users" />
+        <titles :text="212122" /> -->
+        <!-- <img class="avatar" src="" alt="" /> -->
 
     </div>
 </template>

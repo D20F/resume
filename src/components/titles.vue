@@ -1,9 +1,10 @@
 <template>
     <div class="titles">
         <div class="oricl">
-            <p>{{text}}</p>
+            <p>{{ text }}</p>
         </div>
-        <div class="line"></div>
+        <div class="line">
+        </div>
     </div>
 </template>
 
@@ -16,7 +17,7 @@ export default {
         text: {
             type: String,
             default: () => {
-                return '';
+                return "";
             },
         },
     },
@@ -47,10 +48,9 @@ export default {
     .line {
         position: absolute;
         width: 100%;
-        height: 1px;
-        transform: scaleY(0.5);
+        height: 5px;
+        border-bottom: 1px solid #0b70bd;
         bottom: 0;
-        background: #0b70bd;
     }
 }
 </style>

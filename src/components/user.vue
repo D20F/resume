@@ -46,7 +46,7 @@ export default {
 <style scoped lang="scss">
 .user {
     width: 60%;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
     display: flex;
     font-size: 16px;
     // border: 1px solid;
